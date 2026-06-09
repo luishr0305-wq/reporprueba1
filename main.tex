@@ -1,0 +1,91 @@
+\documentclass[a4paper,openright,12pt,oneside]{article}
+\usepackage[top=2cm, bottom=2cm, left=2.5cm, right=2.5cm]{geometry}
+\usepackage{graphicx} % Required for inserting 
+\usepackage{float}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{emoji}
+\usepackage{setspace}\usepackage[siunitx]{circuitikz}
+\usetikzlibrary{positioning, arrows.meta}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage[utf8]{inputenc}
+\usepackage[x11names]{xcolor}
+\usepackage{tcolorbox}
+\usepackage{fontspec}
+
+
+\newtcolorbox{terminal}{
+  colback=gray!15!black,
+  colframe=gray!15!black,
+  arc=0pt,
+  outer arc=0pt,
+  left=2pt,
+  right=2pt,
+  top=2pt,
+  bottom=2pt,
+  boxrule=0pt
+}
+
+\newcommand{\promptA}{\textcolor{green!70!black}{Said@DESKTOP-H8DC8IG} \textcolor{magenta!80!white}{MINGW64} \textcolor{yellow!80!white}{\textasciitilde/codigo mal hecho} \textcolor{cyan!80!white}{(ramatototota)}\\ \textcolor{white}{\$ }}
+
+\newcommand{\promptB}{\textcolor{green!70!black}{Said@DESKTOP-H8DC8IG} \textcolor{magenta!80!white}{MINGW64} \textcolor{yellow!80!white}{\textasciitilde/codigo mal hecho/reporprueba1} \textcolor{cyan!80!white}{(main)}\\ \textcolor{white}{\$ }}
+
+\newcommand{\promptC}{\textcolor{green!70!black}{Said@DESKTOP-H8DC8IG} \textcolor{magenta!80!white}{MINGW64} \textcolor{yellow!80!white}{\textasciitilde/codigo mal hecho/reporprueba1/Software ultra secreto} \textcolor{cyan!80!white}{(main)}\\ \textcolor{white}{\$ }}
+
+\newcommand{\prompt}{\textcolor{green!70!black}{dorian@dorian-HP-Pavilion-Laptop-15-eh3xxx}:\textcolor{cyan!80!white}{\textasciitilde/UV/olmedo/reporprueba1\$ }}
+
+\newcommand{\promptD}{\textcolor{green!70!black}{Said@DESKTOP-H8DC8IG} \textcolor{magenta!80!white}{MINGW64} \textcolor{yellow!80!white}{\textasciitilde/codigo mal hecho/reporprueba1/Software ultra secreto} \textcolor{cyan!80!white}{(main)}\\ \textcolor{white}{\$ }}
+
+\usetikzlibrary{positioning, arrows.meta, calc}
+
+\title{Act.Indiviual. Ciclo for en python}
+\author{Felipe de Jesús Montaño Rocha}
+\definecolor{azul}{RGB}{0,51,153}
+
+
+\title{Reporte de prácticas \#} %O reporte de simulacion
+
+\begin{document}
+\begin{titlepage} %Aquí modificar los datos necesarios
+\begin{center}
+   {\Huge \textbf{Universidad Veracruzana \vspace{1cm}\\}}
+   
+   \includegraphics[width=0.4\textwidth]{imagenes/LOGO.jpg}~\\[1cm]
+   
+   {\LARGE \textbf{Facultad de Ingeniería en Electrónica y Comunicaciones}}\\
+   \vspace{0.4cm}
+   {\Large Reporte de Actividad \\\vspace{0.4cm} \textbf{Documentación de proyectos en Tecnologías Computacionales}}
+   \vspace{0.3cm}
+   \textcolor{azul}{\rule{\linewidth}{0.75mm}}\\
+   \begin{spacing}{1.0}
+ 
+   {\LARGE \textsc{Actividad en equipo: \\\vspace{0.2cm} Git Issues}}
+   \end{spacing}
+   \textcolor{azul}{\rule{\linewidth}{0.75mm}}\\
+   \vspace{0.6cm}
+   {\Large \textbf{Alumno:}}\\
+
+  {\Large
+\begin{center} 
+   Dorian Emir Cardenas Vicente S24006903 \\
+   Bryan Guerrero Cruz S24006895\\
+   Luis Said Hernández Rodríguez S24006917\\
+   Felipe de Jesus Montaño Rocha S24006886
+   
+\end{center}
+}
+    \vspace{0.1cm}
+    {\Large \textbf{Docente:}}\\
+   \vspace{0.1cm}
+   {\Large M. Sc. Luis Fernando Olmedo García}
+   \vfill
+   
+   {\LARGE \textbf{Junio 02, 2026} \\\vspace{0.3cm} }%aqui esta la fecha 
+\end{center}
+\end{titlepage}
+
+\input{introduccion.tex}
+
+\end{document}
